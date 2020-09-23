@@ -1,0 +1,725 @@
+[Root]
+Most Recent Package=Break Out
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\dx\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\Desktop\dx\DX.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\dx\DX.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\dx\DX.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=DX
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=DX
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|DX]
+Icon1=DX.exe
+Title1=DX
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\dx\Package
+ProjectFolder=C:\WINDOWS\Desktop\dx
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\dx\Package\setup.exe
+File2=C:\WINDOWS\Desktop\dx\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\dx\Package\DX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\dx\New Folder
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+C:\WINDOWS\Desktop\dx\GFX\bg.bmp=
+C:\WINDOWS\Desktop\dx\GFX\block.bmp=
+C:\WINDOWS\Desktop\dx\GFX\hs.bmp=
+C:\WINDOWS\Desktop\dx\GFX\INTRO.bmp=
+C:\WINDOWS\Desktop\dx\GFX\luc.bmp=
+C:\WINDOWS\Desktop\dx\GFX\luc2.bmp=
+C:\WINDOWS\Desktop\dx\GFX\numbers.bmp=
+C:\WINDOWS\Desktop\dx\GFX\paddle.bmp=
+C:\WINDOWS\Desktop\dx\GFX\paddle2.bmp=
+C:\WINDOWS\Desktop\dx\GFX\sprite.bmp=
+C:\WINDOWS\Desktop\dx\sounds\Ao-laser.wav=
+C:\WINDOWS\Desktop\dx\sounds\Bang.wav=
+C:\WINDOWS\Desktop\dx\sounds\Bassdrum.wav=
+C:\WINDOWS\Desktop\dx\sounds\Boing.wav=
+C:\WINDOWS\Desktop\dx\sounds\Byeball.wav=
+C:\WINDOWS\Desktop\dx\sounds\Effect.wav=
+C:\WINDOWS\Desktop\dx\sounds\Effect2.wav=
+C:\WINDOWS\Desktop\dx\sounds\Fanfare.wav=
+C:\WINDOWS\Desktop\dx\sounds\Glass.wav=
+C:\WINDOWS\Desktop\dx\sounds\Gunfire.wav=
+C:\WINDOWS\Desktop\dx\sounds\Humm.wav=
+C:\WINDOWS\Desktop\dx\sounds\Lose.wav=
+C:\WINDOWS\Desktop\dx\sounds\music2.wav=
+C:\WINDOWS\Desktop\dx\sounds\music4.wav=
+C:\WINDOWS\Desktop\dx\sounds\Orchblas.wav=
+C:\WINDOWS\Desktop\dx\sounds\Orchestr.wav=
+C:\WINDOWS\Desktop\dx\sounds\Padexplo.wav=
+C:\WINDOWS\Desktop\dx\sounds\Peow!.wav=
+C:\WINDOWS\Desktop\dx\sounds\Ricochet.wav=
+C:\WINDOWS\Desktop\dx\sounds\Saucer.wav=
+C:\WINDOWS\Desktop\dx\sounds\Sweepdow.wav=
+C:\WINDOWS\Desktop\dx\sounds\Sweepup.wav=
+C:\WINDOWS\Desktop\dx\sounds\Swordswi.wav=
+C:\WINDOWS\Desktop\dx\sounds\Tank.wav=
+C:\WINDOWS\Desktop\dx\sounds\Wowpulse.wav=
+C:\WINDOWS\Desktop\dx\editor\Levels\1.sav=
+C:\WINDOWS\Desktop\dx\editor\Levels\2.sav=
+C:\WINDOWS\Desktop\dx\editor\Levels\3.sav=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\WINDOWS\Desktop\dx\DX.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\dx\GFX\bg.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\block.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\hs.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\INTRO.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\luc.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\luc2.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\numbers.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\paddle.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\paddle2.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\sprite.bmp=Yes
+C:\WINDOWS\Desktop\dx\sounds\Ao-laser.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Bang.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Bassdrum.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Boing.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Byeball.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Effect.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Effect2.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Fanfare.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Glass.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Gunfire.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Humm.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Lose.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\music2.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\music4.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Orchblas.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Orchestr.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Padexplo.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Peow!.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Ricochet.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Saucer.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Sweepdow.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Sweepup.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Swordswi.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Tank.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Wowpulse.wav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\1.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\2.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\3.sav=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\WINDOWS\Desktop\dx\DX.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\dx\GFX\bg.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\block.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\hs.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\INTRO.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\luc.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\luc2.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\numbers.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\paddle.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\paddle2.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\GFX\sprite.bmp=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Ao-laser.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Bang.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Bassdrum.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Boing.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Byeball.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Effect.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Effect2.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Fanfare.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Glass.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Gunfire.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Humm.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Lose.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\music2.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\music4.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Orchblas.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Orchestr.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Padexplo.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Peow!.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Ricochet.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Saucer.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Sweepdow.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Sweepup.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Swordswi.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Tank.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\sounds\Wowpulse.wav=$(AppPath)
+C:\WINDOWS\Desktop\dx\editor\Levels\1.sav=$(AppPath)
+C:\WINDOWS\Desktop\dx\editor\Levels\2.sav=$(AppPath)
+C:\WINDOWS\Desktop\dx\editor\Levels\3.sav=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\dx\DX.exe=No
+C:\WINDOWS\Desktop\dx\GFX\bg.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\block.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\hs.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\INTRO.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\luc.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\luc2.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\numbers.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\paddle.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\paddle2.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\sprite.bmp=No
+C:\WINDOWS\Desktop\dx\sounds\Ao-laser.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Bang.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Bassdrum.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Boing.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Byeball.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Effect.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Effect2.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Fanfare.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Glass.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Gunfire.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Humm.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Lose.wav=No
+C:\WINDOWS\Desktop\dx\sounds\music2.wav=No
+C:\WINDOWS\Desktop\dx\sounds\music4.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Orchblas.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Orchestr.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Padexplo.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Peow!.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Ricochet.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Saucer.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Sweepdow.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Sweepup.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Swordswi.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Tank.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Wowpulse.wav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\1.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\2.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\3.sav=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=DX
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=DX
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|DX]
+Icon1=DX.exe
+Title1=DX
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\WINDOWS\Desktop\dx\New Folder
+ProjectFolder=C:\WINDOWS\Desktop\dx
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\dx\New Folder\setup.exe
+File2=C:\WINDOWS\Desktop\dx\New Folder\Setup.Lst
+File3=C:\WINDOWS\Desktop\dx\New Folder\DX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\dx\Package
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 3|Files Added]
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\WINDOWS\Desktop\dx\DX.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+C:\WINDOWS\Desktop\dx\DX.exe=$(AppPath)\TEST
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\dx\DX.exe=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=1.44 MB
+Title=DX
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=DX
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|DX]
+Icon1=DX.exe
+Title1=DX
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=C:\WINDOWS\Desktop\dx\Package
+ProjectFolder=C:\WINDOWS\Desktop\dx
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\dx\Package\setup.exe
+File2=C:\WINDOWS\Desktop\dx\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\dx\Package\DX.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Break Out|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\BREAKOUT2setup
+
+[Package|Break Out|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Break Out|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Break Out|Files Found]
+
+[Package|Break Out|Files Released]
+
+[Package|Break Out|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+
+[Package|Break Out|Out-of-Date Dependency Information]
+
+[Package|Break Out|Files Added]
+c:\windows\desktop\dx\editor\levels\1.sav=
+c:\windows\desktop\dx\editor\levels\2.sav=
+c:\windows\desktop\dx\editor\levels\3.sav=
+c:\windows\desktop\dx\editor\levels\4.sav=
+c:\windows\desktop\dx\editor\levels\5.sav=
+c:\windows\desktop\dx\editor\levels\6.sav=
+c:\windows\desktop\dx\editor\levels\7.sav=
+c:\windows\desktop\dx\editor\levels\8.sav=
+c:\windows\desktop\dx\editor\levels\9.sav=
+c:\windows\desktop\dx\editor\levels\10.sav=
+c:\windows\desktop\dx\editor\levels\11.sav=
+c:\windows\desktop\dx\editor\levels\12.sav=
+c:\windows\desktop\dx\editor\levels\13.sav=
+c:\windows\desktop\dx\editor\levels\14.sav=
+c:\windows\desktop\dx\editor\levels\15.sav=
+c:\windows\desktop\dx\editor\levels\16.sav=
+c:\windows\desktop\dx\editor\levels\17.sav=
+c:\windows\desktop\dx\editor\levels\18.sav=
+c:\windows\desktop\dx\editor\levels\19.sav=
+c:\windows\desktop\dx\editor\levels\20.sav=
+c:\windows\desktop\dx\editor\levels\21.sav=
+c:\windows\desktop\dx\sounds\bang.wav=
+c:\windows\desktop\dx\sounds\boing.wav=
+c:\windows\desktop\dx\sounds\byeball.wav=
+c:\windows\desktop\dx\sounds\effect.wav=
+c:\windows\desktop\dx\sounds\effect2.wav=
+c:\windows\desktop\dx\sounds\fanfare.wav=
+c:\windows\desktop\dx\sounds\gunfire.wav=
+c:\windows\desktop\dx\sounds\humm.wav=
+c:\windows\desktop\dx\sounds\lose.wav=
+c:\windows\desktop\dx\sounds\music2.wav=
+c:\windows\desktop\dx\sounds\music4.wav=
+c:\windows\desktop\dx\sounds\padexplo.wav=
+c:\windows\desktop\dx\sounds\peow!.wav=
+c:\windows\desktop\dx\sounds\ricochet.wav=
+c:\windows\desktop\dx\sounds\saucer.wav=
+c:\windows\desktop\dx\sounds\sweepdow.wav=
+c:\windows\desktop\dx\sounds\sweepup.wav=
+c:\windows\desktop\dx\sounds\tank.wav=
+c:\windows\desktop\dx\sounds\swordswi.wav=
+c:\windows\desktop\dx\sounds\wowpulse.wav=
+c:\windows\desktop\dx\sounds\xploshor.wav=
+c:\windows\desktop\dx\sounds\xplosht1.wav=
+c:\windows\desktop\dx\gfx\bg.bmp=
+c:\windows\desktop\dx\gfx\block.bmp=
+c:\windows\desktop\dx\gfx\hs.bmp=
+c:\windows\desktop\dx\gfx\intro.bmp=
+c:\windows\desktop\dx\gfx\luc.bmp=
+c:\windows\desktop\dx\gfx\numbers.bmp=
+c:\windows\desktop\dx\gfx\paddle.bmp=
+c:\windows\desktop\dx\gfx\paddle2.bmp=
+c:\windows\desktop\dx\gfx\sprite.bmp=
+c:\windows\desktop\dx\high.dat=
+
+[Package|Break Out|Files Removed]
+
+[Package|Break Out|Files In Project]
+C:\WINDOWS\Desktop\dx\DX.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\1.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\2.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\3.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\4.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\5.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\6.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\7.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\8.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\9.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\10.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\11.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\12.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\13.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\14.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\15.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\16.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\17.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\18.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\19.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\20.sav=Yes
+C:\WINDOWS\Desktop\dx\editor\Levels\21.sav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Bang.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Boing.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Byeball.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Effect.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Effect2.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Fanfare.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Gunfire.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Humm.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Lose.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\music2.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\music4.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Padexplo.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Peow!.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Ricochet.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Saucer.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Sweepdow.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Sweepup.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Tank.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Swordswi.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Wowpulse.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Xploshor.wav=Yes
+C:\WINDOWS\Desktop\dx\sounds\Xplosht1.wav=Yes
+C:\WINDOWS\Desktop\dx\GFX\bg.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\block.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\hs.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\INTRO.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\luc.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\numbers.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\paddle.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\paddle2.bmp=Yes
+C:\WINDOWS\Desktop\dx\GFX\sprite.bmp=Yes
+C:\WINDOWS\Desktop\dx\high.DAT=Yes
+
+[Package|Break Out|Configure Registry Files]
+Applicable=No
+
+[Package|Break Out|Configure Remote Servers]
+Applicable=No
+
+[Package|Break Out|Install Locations]
+C:\WINDOWS\Desktop\dx\DX.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\dx\editor\Levels\1.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\2.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\3.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\4.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\5.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\6.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\7.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\8.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\9.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\10.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\11.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\12.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\13.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\14.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\15.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\16.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\17.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\18.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\19.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\20.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\editor\Levels\21.sav=$(AppPath)\editor\Levels
+C:\WINDOWS\Desktop\dx\sounds\Bang.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Boing.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Byeball.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Effect.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Effect2.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Fanfare.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Gunfire.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Humm.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Lose.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\music2.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\music4.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Padexplo.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Peow!.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Ricochet.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Saucer.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Sweepdow.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Sweepup.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Tank.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Swordswi.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Wowpulse.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Xploshor.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\sounds\Xplosht1.wav=$(AppPath)\sounds
+C:\WINDOWS\Desktop\dx\GFX\bg.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\GFX\block.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\GFX\hs.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\GFX\INTRO.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\GFX\luc.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\GFX\numbers.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\GFX\paddle.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\GFX\paddle2.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\GFX\sprite.bmp=$(AppPath)\GFX
+C:\WINDOWS\Desktop\dx\high.DAT=$(AppPath)
+
+[Package|Break Out|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\dx\DX.exe=No
+C:\WINDOWS\Desktop\dx\editor\Levels\1.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\2.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\3.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\4.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\5.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\6.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\7.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\8.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\9.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\10.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\11.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\12.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\13.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\14.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\15.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\16.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\17.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\18.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\19.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\20.sav=No
+C:\WINDOWS\Desktop\dx\editor\Levels\21.sav=No
+C:\WINDOWS\Desktop\dx\sounds\Bang.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Boing.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Byeball.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Effect.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Effect2.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Fanfare.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Gunfire.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Humm.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Lose.wav=No
+C:\WINDOWS\Desktop\dx\sounds\music2.wav=No
+C:\WINDOWS\Desktop\dx\sounds\music4.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Padexplo.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Peow!.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Ricochet.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Saucer.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Sweepdow.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Sweepup.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Tank.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Swordswi.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Wowpulse.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Xploshor.wav=No
+C:\WINDOWS\Desktop\dx\sounds\Xplosht1.wav=No
+C:\WINDOWS\Desktop\dx\GFX\bg.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\block.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\hs.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\INTRO.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\luc.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\numbers.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\paddle.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\paddle2.bmp=No
+C:\WINDOWS\Desktop\dx\GFX\sprite.bmp=No
+C:\WINDOWS\Desktop\dx\high.DAT=No
+
+[Package|Break Out|Distribution]
+Type=multi
+Size=1.44 MB
+Title=BREAK OUT
+
+[Package|Break Out|IconGroups]
+Group0=BREAK OUT
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Break Out|BREAK OUT]
+Icon1=DX.exe
+Title1=BREAK OUT
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Break Out|Package]
+PackageFolder=C:\WINDOWS\Desktop\BREAKOUT2setup
+ProjectFolder=C:\WINDOWS\Desktop\dx
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\BREAKOUT2setup\setup.exe
+File2=C:\WINDOWS\Desktop\BREAKOUT2setup\Setup.Lst
+File3=C:\WINDOWS\Desktop\BREAKOUT2setup\DX1.CAB
+File4=C:\WINDOWS\Desktop\BREAKOUT2setup\DX2.CAB
+File5=C:\WINDOWS\Desktop\BREAKOUT2setup\DX3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
